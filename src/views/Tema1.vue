@@ -19,7 +19,7 @@
     br
     br
     #t_1_1.titulo-segundo.mb-5
-    h2 1.1  ¿Qué es el arte finalizado?
+      h2 1.1  ¿Qué es el arte finalizado?
     br
     br
 

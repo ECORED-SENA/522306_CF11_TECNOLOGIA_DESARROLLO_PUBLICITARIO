@@ -39,7 +39,7 @@
               figure
                 img(src='@/assets/tema4/img-3.svg', alt='Texto que describa la imagen')
               br
-              p.text-small  Figura 19 - Remuestrear
+              p.text-small.mb-3  Figura 19 - Remuestrear
          
               p En la resolución aparece 72 ppp, este valor se debe cambiar a 300 que es la resolución óptima.
              
@@ -58,10 +58,8 @@
               figure
                 img(src='@/assets/tema4/img-4.svg', alt='Ventana Color Lab')
               br
-              p.text-small  Figura 20 - Ventana Color Lab
+              p.text-small.mb-3  Figura 20 - Ventana Color Lab
 
-              
-              p  Primero, abrir la imagen en #[strong Photoshop – Imagen – Tamaño de Imagen.]
               .ul.lista-ul--color
                 li 
                   i.fas.fa-caret-right
@@ -79,20 +77,20 @@
               figure
                 img(src='@/assets/tema4/img-5.svg', alt='Ventana Color Lab')
               br
-              p.text-small  Figura 21 - Luminosidad Color Lab
+              p.text-small.mb-3  Figura 21 - Luminosidad Color Lab
               
-              p Dentro del modo #[strong Color Lab], debe haber cuatro canales visibles. Solo es necesario que esté habilitado el canal Luminosidad (figura 21), por lo que se deben desactivar los otros canales haciendo clic sobre el icono “ojo” de cada uno. 
+              p Dentro del modo #[strong Color Lab], debe haber cuatro canales visibles. Solo es necesario que esté habilitado el canal #[strong Luminosidad] (figura 21), por lo que se deben desactivar los otros canales haciendo clic sobre el icono “ojo” de cada uno. 
          
           .row(numero="3" titulo="Enfoque suavizado").pt-3
             .col-md-12.mb-4.mb-md-0
               figure
                 img(src='@/assets/tema4/img-6.svg', alt='Enfoque suavizado')
               br
-              p.text-small  Figura 22 - Enfoque suavizado
+              p.text-small.mb-3  Figura 22 - Enfoque suavizado
               
               p A continuación, se debe mejorar el canal “Luminosidad” con el filtro #[strong Enfoque suavizado] y para ello, en la pestaña #[strong Filtros] hacer clic en #[strong Enfoque suavizado] para abrir el cuadro de diálogo del filtro (figura 22). Lo recomendado es aumentar la #[strong Cantidad] a, por lo menos, el 110%, mantener #[strong Radio] en 12.4 px y habilitar la opción #[strong Quitar para desenfoque gaussiano.]
                       
-          .row(numero="4" titulo="EResultado enfoque suavizado").pt-3
+          .row(numero="4" titulo="Resultado enfoque suavizado").pt-3
             .col-md-12.mb-4.mb-md-0
               figure
                 img(src='@/assets/tema4/img-7.svg', alt='Resultado enfoque suavizado')

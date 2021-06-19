@@ -34,17 +34,17 @@
       
     
     .row.justify-content-md-center.align-self-center.mb-5
-      .col-6
+      .col-6.flex
         .fond2
           .col-lg-auto.col-12.justify-content-md-center.align-self-center.p-4.m-3
             br
             br
-            h4.text-center.text-center.mb-4 -	Sobreimpresión
+            h4.text-center.text-center.mb-4 Sobreimpresión
             figure.imgc.mb-5.img-300
-              img(src='@/assets/tema2/img-6.svg', alt='¿Qué es la sobreimpresión y reserva de objetos?')
+              img(src='@/assets/tema2/img-6.svg', alt='¿Sobreimpresión?')
             br
             p.mb-4.text-center Imprimir el objeto directamente sobre el fondo.
-      .col-6
+      .col-6.flex
         .fond2
           .col-lg-auto.col-12.justify-content-md-center.align-self-center.p-4.m-3
             br
@@ -55,13 +55,13 @@
             br
             p.mb-4.text-center Dejar un hueco con la forma que identifica a ese objeto e imprimirlo sobre el espacio en blanco en el área vacía, esta es la reserva (figura 5).
 
-    h3.titulo-tercero La sobreimpresión
-      p.mb-5 Como se observa en la figura 5, en la parte de “sobreimpresión”, el objeto del primer plano se imprime sobre el objeto de fondo generando un nuevo color debido a la mezcla de las tintas de los dos objetos que se superponen. Ahora bien, la sobreimpresión se realiza sobre los objetos de fondo; por lo tanto, se imprime una tinta sobre otra.
+    h3.titulo-tercero.mb-3 La sobreimpresión
+    p.mb-5 Como se observa en la figura 5, en la parte de “sobreimpresión”, el objeto del primer plano se imprime sobre el objeto de fondo generando un nuevo color debido a la mezcla de las tintas de los dos objetos que se superponen. Ahora bien, la sobreimpresión se realiza sobre los objetos de fondo; por lo tanto, se imprime una tinta sobre otra.
 
-    h3.titulo-tercero La reserva
-      p.mb-5 En la misma figura 5, pero en “reserva”, el objeto tendrá el color que se le ha asignado en el diseño digital sin alterarse el color, debido a que será impreso directamente en el papel en blanco porque se ha reservado el espacio para dicho fin.
+    h3.titulo-tercero.mb-3 La reserva
+    p En la misma figura 5, pero en “reserva”, el objeto tendrá el color que se le ha asignado en el diseño digital sin alterarse el color, debido a que será impreso directamente en el papel en blanco porque se ha reservado el espacio para dicho fin.
 
-      p.mb-5 En los programas actuales las reservas se crean por defecto facilitando el proceso de preprensa. Crear reservas es muy conveniente porque la superposición genera colores indeseados; sin embargo, la sobreimpresión puede utilizarse como un recurso para crear efectos especiales de mezcla o para evitar la aparición de huecos entre colores u objetos debidos a la falta de registro.
+    p.mb-5 En los programas actuales las reservas se crean por defecto facilitando el proceso de preprensa. Crear reservas es muy conveniente porque la superposición genera colores indeseados; sin embargo, la sobreimpresión puede utilizarse como un recurso para crear efectos especiales de mezcla o para evitar la aparición de huecos entre colores u objetos debidos a la falta de registro.
     .row.justify-content-md-center.align-self-center.m-3.mb-5
       figure.imgc.img-300
           img(src='@/assets/tema2/img-8-1.svg', alt='¿Qué es la sobreimpresión y reserva de objetos?')
@@ -109,14 +109,14 @@ export default {
       {
         titulo: 'Modo RGB',
         texto:
-          'Dar clic en Imagen – Modo, aquí se nota que, efectivamente, la imagen está en RGB (figura 2).',
+          'Dar clic en <strong>Imagen – Modo</strong>, aquí se nota que, efectivamente, la imagen está en RGB (figura 2).',
         imagen: require('@/assets/tema2/img-2.svg'),
         leyendaImagen: 'Figura 2',
       },
       {
         titulo: 'Conversión a CMYK',
         texto:
-          'Seleccionar Color CMYK y, a continuación, se abrirá la siguiente ventana, donde hará clic en Ok (figura 3).',
+          'Seleccionar <strong>Color CMYK</strong> y, a continuación, se abrirá la siguiente ventana, donde hará clic en <strong>Ok</strong> (figura 3).',
         imagen: require('@/assets/tema2/img-3.svg'),
         leyendaImagen: 'Figura 3',
       },
@@ -133,7 +133,7 @@ export default {
       {
         titulo: 'Archivo UV',
         texto:
-          '⮚	En el archivo a imprimir se borrará lo que desea que tenga el barniz; es decir, dejará únicamente lo que no lleva el barniz y en el archivo UV quedará solamente lo que llevará el barniz (figura 11).',
+          '<div class="ul lista-ul--color"><li><i class="fas fa-caret-right"></i><p>En el archivo a imprimir se borrará lo que desea que tenga el barniz; es decir, dejará únicamente lo que no lleva el barniz y en el archivo UV quedará solamente lo que llevará el barniz (figura 11)..</p></li></div><br>',
 
         imagen: require('@/assets/tema2/img-10.svg'),
         leyendaImagen: 'Figura 11',
@@ -141,14 +141,14 @@ export default {
       {
         titulo: 'Color UV',
         texto:
-          '⮚	A continuación, los elementos que llevará el barniz deben ser convertidos a un color uniforme: creando una nueva muestra en el panel de muestras.<br> <br>⮚	Ahora, se debe marcar el tipo de color como tinta plana y el modo de color como CMYK y el nombre de la nueva muestra como “Color UV” para identificarlo fácilmente. Luego, se debe seleccionar el color que se quiere siempre y cuando sea un color al 100%, sin mezclas; por ejemplo, 100% cian o 100% magenta (figura 12).',
+          '<div class="ul lista-ul--color"><li><i class="fas fa-caret-right"></i><p>A continuación, los elementos que llevará el barniz deben ser convertidos a un color uniforme: creando una nueva muestra en el panel de <strong>muestras</strong>.</p></li></div><div class="ul lista-ul--color"><li><i class="fas fa-caret-right"></i><p>	Ahora, se debe marcar el <strong>tipo de color</strong> como <strong>tinta plana </strong>y el <strong>modo de color</strong> como CMYK y el nombre de la nueva muestra como “Color UV” para identificarlo fácilmente. Luego, se debe seleccionar el color que se quiere siempre y cuando sea un color al 100%, sin mezclas; por ejemplo, 100% cian o 100% magenta (figura 12).</p></li></div><br>',
         imagen: require('@/assets/tema2/img-11.svg'),
         leyendaImagen: 'Figura 12',
       },
       {
         titulo: 'Textos en contornos',
         texto:
-          '⮚	Se deben convertir todos los textos a contornos así: hacer clic <strong> en texto – crear contornos</strong> o por <strong>clic derecho – crear contornos.</strong>  <br> <br>⮚	Se deben convertir todos los texto',
+          '<div class="ul lista-ul--color"><li><i class="fas fa-caret-right"></i><p>Se deben convertir todos los textos a contornos así: hacer clic <strong> en texto – crear contornos</strong> o por <strong>clic derecho – crear contornos.</strong></p></li></div> <div class="ul lista-ul--color"><li><i class="fas fa-caret-right"></i><p>	Se deben convertir todos los texto.</p></li></div><br>',
         imagen: require('@/assets/tema2/img-12.svg'),
         leyendaImagen: 'Figura 13',
       },

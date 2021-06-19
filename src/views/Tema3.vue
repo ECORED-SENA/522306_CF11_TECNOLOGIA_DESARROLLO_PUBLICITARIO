@@ -25,7 +25,7 @@
             img(src='@/assets/tema3/img-1-1.svg', alt='Sangrado')
             figcaption Figura 15 - Uso correcto de sangría
 
-      p.mb-5 Como se ve en la figura 14, el área en color magenta es el sangrado del documento y corresponde a una zona de 3 mm por cada lado, fuera del diseño final; es decir, estos 3 mm se perderán cuando se haga el corte en la guillotina con lo que se garantizará que no haya bordes blancos en la impresión final.
+      p.mb-5.p-5 Como se ve en la figura 14, el área en color magenta es el sangrado del documento y corresponde a una zona de 3 mm por cada lado, fuera del diseño final; es decir, estos 3 mm se perderán cuando se haga el corte en la guillotina con lo que se garantizará que no haya bordes blancos en la impresión final.
 
     #t_3_1.titulo-segundo.mb-5
       h2 3.1 ¿Cómo aplicar el sangrado a un diseño?
@@ -43,7 +43,7 @@
     #t_3_2.titulo-segundo.mb-5
       h2 3.2 ¿Cuánto debe medir el sangrado?
     
-    .row.justify-content-around.align-items-center.p-5  
+    .row.justify-content-around.align-items-centers  
       SlyderC.mb-5(:datos="datosSlyder3")
           
     
@@ -73,7 +73,7 @@ export default {
       {
         titulo: 'Área de sangrado',
         texto:
-          'Ahora, se realizará un ejemplo con una pieza real con unos sencillos pasos:<br><br>  ⮚	Traer la imagen que cumplirá la función de fondo del anuncio a Adobe Illustrator en la ruta:<strong> Archivo – Colocar – Seleccionar imagen – Incrustar.</strong> <br> <br>⮚	Se deben convertir todos los texto',
+          'Ahora, se realizará un ejemplo con una pieza real con unos sencillos pasos:<br><br><div class="ul lista-ul--color"><li><i class="fas fa-caret-right"></i><p>Traer la imagen que cumplirá la función de fondo del anuncio a Adobe Illustrator en la ruta:<strong> Archivo – Colocar – Seleccionar imagen – Incrustar.</strong> </p></li></div><div class="ul lista-ul--color"><li><i class="fas fa-caret-right"></i><p>Se deben convertir todos los texto.</p></li></div>',
         imagen: require('@/assets/tema3/img-5.svg'),
         leyendaImagen: 'Figura 17',
       },

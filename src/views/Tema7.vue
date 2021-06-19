@@ -10,7 +10,7 @@
     .row.justify-content-md-center.mb-4
       .col-lg.justify-content-md-center.align-self-center
         
-        p.mb-5 Para realizar impresiones de piezas gráficas, el archivo recomendado será siempre el PDF, este suele ser el favorito teniendo en cuenta que impide que se realicen cambios en textos y tamaños cuando se abre en otro equipo; sin embargo, Adobe Illustrator ofrece una excelente opción para tomar todos los elementos que componen un diseño (imágenes, tipografías, etc.) por medio de la opción Empaquetar.
+        p.mb-5 Para realizar impresiones de piezas gráficas, el archivo recomendado será siempre el PDF, este suele ser el favorito teniendo en cuenta que impide que se realicen cambios en textos y tamaños cuando se abre en otro equipo; sin embargo, Adobe Illustrator ofrece una excelente opción para tomar todos los elementos que componen un diseño (imágenes, tipografías, etc.) por medio de la opción #[strong Empaquetar.]
 
       .col-12.col-lg-auto.justify-content-md-center.mb-4 
           figure.imgc.img-300
@@ -36,7 +36,7 @@
             
 
               figure
-                img(src='@/assets/tema4/img-3.svg', alt='Elementos empaquetados')
+                img(src='@/assets/tema7/img-3.svg', alt='Elementos empaquetados')
               br
               p.text-small  Figura 31 - Elementos empaquetados
          
