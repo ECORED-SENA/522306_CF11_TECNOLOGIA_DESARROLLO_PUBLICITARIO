@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
+[https://github.com/ECORED-SENA/522306_CF11_TECNOLOGIA_DESARROLLO_PUBLICITARIO](https://github.com/ECORED-SENA/522306_CF11_TECNOLOGIA_DESARROLLO_PUBLICITARIO)
 
 #
 
