@@ -18,13 +18,13 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'El arte finalizados',
+        titulo: 'El arte finalizado',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Encabezados',
+            titulo: '¿Qué es el arte finalizado?',
             hash: '#t_1_1',
           },
         ],
@@ -33,7 +33,7 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Colores de impresión',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -60,7 +60,7 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Fundamentación Textil',
+        titulo: 'Sangrado',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -96,21 +96,21 @@ export default {
         nombreRuta: 'tema5',
         icono: 'far fa-file-alt',
         numero: '5',
-        titulo: 'Fundamentación Textil',
+        titulo: 'Tipografías empleadas',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema6',
         icono: 'far fa-file-alt',
         numero: '6',
-        titulo: 'Fundamentación Textil',
+        titulo: 'Troqueles',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema7',
         icono: 'far fa-file-alt',
         numero: '7',
-        titulo: 'Fundamentación Textil',
+        titulo: 'Formato final',
         desarrolloContenidos: true,
       },
     ],
