@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Artefinalización de piezas gráficas',
+    componenteFormativo: 'Arte finalización de piezas gráficas',
     descripcionCurso:
       'El arte final en diseño es el proceso de revisión y preparación de un trabajo gráfico para enviarlo correctamente a la imprenta. Es un paso previo a la impresión y reproducción de cualquier encargo gráfico. De un arte final bien realizado, dependerá el resultado bueno o malo del proyecto (Adesing Perú, s.f.).',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
