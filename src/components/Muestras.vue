@@ -1237,7 +1237,7 @@ div
 
   //- LineaTiempoD debe ir acompañado de una de una de estas clases => 
   //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-  LineaTiempoD.color-acento-botones.mb-5
+  LineaTiempoD.color-acento-contenido.mb-5
     .row(numero="1" titulo="Praesent luctus")
       .col-md-6.mb-4.mb-md-0
         p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.

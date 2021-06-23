@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'Arte finalización de piezas gráficas',
+    componenteFormativo:
+      'Componente Formativo con un nombre extremadamente largo y extenso',
     descripcionCurso:
-      'El arte final en diseño es el proceso de revisión y preparación de un trabajo gráfico para enviarlo correctamente a la imprenta. Es un paso previo a la impresión y reproducción de cualquier encargo gráfico. De un arte final bien realizado, dependerá el resultado bueno o malo del proyecto (Adesing Perú, s.f.).',
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
@@ -13,19 +14,126 @@ export default {
         icono: 'fas fa-home',
         titulo: 'Volver al inicio',
       },
-
+      {
+        nombreRuta: 'introduccion',
+        icono: 'fas fa-info',
+        titulo: 'Introducción',
+        desarrolloContenidos: true,
+      },
       {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'El arte finalizados',
+        titulo: 'Componentes',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Encabezados',
-            hash: '#t_1_1',
+            hash: 'encabezados',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Párrafos',
+            hash: 'parrafos',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Botones',
+            hash: 'botones',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Listas',
+            hash: 'listas',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.5',
+            titulo: 'Tablas',
+            hash: 'tablas',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.6',
+            titulo: 'Imagen',
+            hash: 'imagen',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.7',
+            titulo: 'Imagen Infográfica',
+            hash: 'imagen_infografica',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.8',
+            titulo: 'Video',
+            hash: 'video',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.9',
+            titulo: 'Bloques de texto destacado',
+            hash: 'texto_destacado',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.10',
+            titulo: 'Sliders',
+            hash: 'sliders',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.11',
+            titulo: 'Acordiones',
+            hash: 'acordiones',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.12',
+            titulo: 'Pestañas o Tabs',
+            hash: 'tabs',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.13',
+            titulo: 'Líneas de tiempo',
+            hash: 'lineas_tiempo',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.14',
+            titulo: 'Pasos',
+            hash: 'pasos',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.15',
+            titulo: 'Llamados a la acción',
+            hash: 'llamados_accion',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.16',
+            titulo: 'Tarjetas',
+            hash: 'tarjetas',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.17',
+            titulo: 'Tarjetas con número',
+            hash: 'tarjeta_numero',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.18',
+            titulo: 'Modal',
+            hash: 'modal',
           },
         ],
       },
@@ -39,20 +147,38 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Conversión de imágenes RGB – CMYK',
+            titulo: 'Infografía Animada',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Reservas',
+            titulo: 'Video Motion',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Barniz UV',
+            titulo: 'Motion + Presentador',
             hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo: 'Animación 2D',
+            hash: 't_2_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.5',
+            titulo: 'Video interactivo',
+            hash: 't_2_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.6',
+            titulo: 'Infografías',
+            hash: 't_2_6',
           },
         ],
       },
@@ -66,61 +192,60 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: '¿Cómo aplicar el sangrado a un diseño?',
+            titulo:
+              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: '¿Cuánto debe medir el sangrado?',
+            titulo: 'Identificación fibras por combustión',
             hash: 't_3_2',
           },
-        ],
-      },
-      {
-        nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
-        numero: '4',
-        titulo: 'Resolución de imágenes',
-        desarrolloContenidos: true,
-        subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '4.1',
-            titulo: 'Color Lab',
-            hash: 't_4_1',
+            numero: '3.3',
+            titulo: 'Clasificación de los hilos',
+            hash: 't_3_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.4',
+            titulo: 'Clasificación de tejidos',
+            hash: 't_3_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.5',
+            titulo: 'Caracterización de los tejidos',
+            hash: 't_3_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.6',
+            titulo: 'Procesos textiles',
+            hash: 't_3_6',
           },
         ],
-      },
-      {
-        nombreRuta: 'tema5',
-        icono: 'far fa-file-alt',
-        numero: '5',
-        titulo: 'Fundamentación Textil',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema6',
-        icono: 'far fa-file-alt',
-        numero: '6',
-        titulo: 'Fundamentación Textil',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema7',
-        icono: 'far fa-file-alt',
-        numero: '7',
-        titulo: 'Fundamentación Textil',
-        desarrolloContenidos: true,
       },
     ],
     subMenu: [
+      {
+        nombreRuta: 'actividad',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica',
+        desarrolloContenidos: true,
+      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-
+      {
+        nombreRuta: 'complementario',
+        icono: 'far fa-folder-open',
+        titulo: 'Material complementario',
+      },
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -141,86 +266,104 @@ export default {
   referencias: [
     {
       referencia:
-        'Adesing Perú. (s.f.). Cómo preparar trabajos de diseño gráfico para imprenta. ',
+        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
       link:
-        'https://adelossantos.wordpress.com/2012/10/22/como-preparar-trabajos-de-diseno-grafico-para-imprenta/ ',
-    },
-    {
-      referencia: 'Cevagraf. (2013). Sobreimpresión, reserva y reventado.',
-      link: 'https://www.cevagraf.coop/blog/sobreimpresion-y-reserva/ ',
+        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
     },
     {
       referencia:
-        'El estudio. (2018). Cómo preparar un arte final antes de enviar a imprenta.',
+        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
       link:
-        'https://elestudio.com/como-preparar-un-arte-final-antes-de-enviar-imprenta',
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
     },
     {
       referencia:
-        'Espino, N. (2017). ¿Qué es el sangrado (o sangre) en diseño gráfico?',
-      link: 'https://nachoespino.com/diseno/que-es-el-sangrado/',
+        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
     },
     {
       referencia:
-        'Imagen Digital. (2006). Principios de la impresión en colores.',
-      link: 'http://www.gusgsm.com/principios_de_la_impresion_en_colores ',
+        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
     },
     {
       referencia:
-        'Reimers Design. (s.f.). Pequeño diccionario del diseñador. Consultado el 17 de junio de 2020.',
-      link: 'https://cutt.ly/VyDzeWh',
+        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
+    },
+    {
+      referencia:
+        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+    },
+    {
+      referencia:
+        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+    },
+    {
+      referencia:
+        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+      link:
+        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
     },
   ],
   glosario: [
     {
-      termino: 'Arte final',
+      termino: 'MoodBoard',
       significado:
-        'Es el proceso de revisión y preparación de un trabajo gráfico para enviarlo correctamente a la imprenta.',
+        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
     },
     {
-      termino: 'Boceto',
+      termino: 'Suftware',
       significado:
-        'Esquema o proyecto que contiene solamente los rasgos principales de una obra artística o técnica.',
+        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
     },
     {
-      termino: 'Curva Bézier',
+      termino: 'Pirognóstico',
       significado:
-        'En aplicaciones de dibujo, es una línea curva entre dos puntos de control. Cada punto es una pequeña base de datos, o vector, que almacena información como su grosor, color, medida y dirección.',
+        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+    },
+    {
+      termino: 'Áectores',
+      significado:
+        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+    },
+    {
+      termino: 'Moda',
+      significado:
+        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
     },
     {
       termino: 'Diseño',
       significado:
-        'Actividad creativa que tiene por fin proyectar objetos que sean útiles y estéticos.',
+        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
     },
     {
-      termino: 'Ilustración vectorial',
+      termino: 'Tipología',
       significado:
-        'Concepto vinculado a la imagen digital (compuesta por mapa de bits), aunque se compone de elementos geométricos independientes que se combinan para crear dibujos y figuras más complejas.',
+        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
     },
     {
-      termino: 'Línea de corte',
+      termino: 'Bidimensional',
       significado:
-        'Líneas que indican la medida del formato acabado (papel). Pequeñas líneas que indican por donde guillotinar un trabajo una vez impreso.',
+        'que se representa según su altura y su anchura y no su profundidad.',
     },
     {
-      termino: 'Paleta de colores',
+      termino: 'Interés Inferior del menor',
       significado:
-        'Conjunto de colores disponibles para ser utilizados en una imagen. Es una de las herramientas de diseño gráfico elementales, ya que se utiliza para crear combinaciones de colores que trabajen bien juntos.',
+        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
     },
     {
-      termino: 'Reserva',
+      termino: 'Interseccionalidad',
       significado:
-        'Parte posterior de una hoja de papel; la hoja del lado izquierdo es la vuelta del pliego impreso. Espacio libre que se deja en un fondo para insertar otro elemento o para dejarlo en blanco. En acabado de superficie, técnica que se emplea para el recubrimiento parcial del impreso.',
+        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
     },
     {
-      termino: 'Tipografía',
+      termino: 'Interés superior del menor',
       significado:
-        'Representación gráfica del lenguaje que estudia las diferentes categorías de letras, las familias, los recursos, su legibilidad. El arte y la técnica de imprimir a partir de caracteres alfabéticos realzados y fundidos en bloques de metal.',
-    },
-    {
-      termino: 'Sangrado',
-      significado:
-        'En tipografía, la sangría desplaza la línea o líneas de introducción de un texto con determinados caracteres blancos o espacios.',
+        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
     },
   ],
   complementario: [
@@ -282,13 +425,13 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: 'Sandra Carolina Durán López',
+        nombre: ['Nombre 1', 'Nombre 2'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Jorge Leonardo Camacho Pardo',
+        nombre: 'Nombre',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
