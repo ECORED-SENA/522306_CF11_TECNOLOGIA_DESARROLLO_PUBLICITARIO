@@ -133,7 +133,7 @@ export default {
       {
         titulo: 'Archivo UV',
         texto:
-          '<div class="ul lista-ul--color"><li><i class="fas fa-caret-right"></i><p>En el archivo a imprimir se borrará lo que desea que tenga el barniz; es decir, dejará únicamente lo que no lleva el barniz y en el archivo UV quedará solamente lo que llevará el barniz (figura 11)..</p></li></div><br>',
+          '<div class="ul lista-ul--color"><li><i class="fas fa-caret-right"></i><p>En el archivo a imprimir se borrará lo que desea que tenga el barniz; es decir, dejará únicamente lo que no lleva el barniz y en el archivo UV quedará solamente lo que llevará el barniz (figura 11).</p></li></div><br>',
 
         imagen: require('@/assets/tema2/img-10.svg'),
         leyendaImagen: 'Figura 11',
@@ -148,7 +148,7 @@ export default {
       {
         titulo: 'Textos en contornos',
         texto:
-          '<div class="ul lista-ul--color"><li><i class="fas fa-caret-right"></i><p>Se deben convertir todos los textos a contornos así: hacer clic <strong> en texto – crear contornos</strong> o por <strong>clic derecho – crear contornos.</strong></p></li></div> <div class="ul lista-ul--color"><li><i class="fas fa-caret-right"></i><p>	Se deben convertir todos los texto.</p></li></div><br>',
+          '<div class="ul lista-ul--color"><li><i class="fas fa-caret-right"></i><p>Se deben convertir todos los textos a contornos así: hacer clic <strong> en texto – crear contornos</strong> o por <strong>clic derecho – crear contornos.</strong></p></li></div> <div class="ul lista-ul--color"><li><i class="fas fa-caret-right"></i><p>	Por último, ambos archivos deben enviarse a la imprenta para ser procesados correctamente.</p></li></div><br>',
         imagen: require('@/assets/tema2/img-12.svg'),
         leyendaImagen: 'Figura 13',
       },

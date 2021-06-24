@@ -74,7 +74,7 @@ export default {
       {
         titulo: 'Área de sangrado',
         texto:
-          'Ahora, se realizará un ejemplo con una pieza real con unos sencillos pasos:<br><br><div class="ul lista-ul--color"><li><i class="fas fa-caret-right"></i><p>Traer la imagen que cumplirá la función de fondo del anuncio a Adobe Illustrator en la ruta:<strong> Archivo – Colocar – Seleccionar imagen – Incrustar.</strong> </p></li></div><div class="ul lista-ul--color"><li><i class="fas fa-caret-right"></i><p>Se deben convertir todos los texto.</p></li></div>',
+          'Ahora, se realizará un ejemplo con una pieza real con unos sencillos pasos:<br><br><div class="ul lista-ul--color"><li><i class="fas fa-caret-right"></i><p>Traer la imagen que cumplirá la función de fondo del anuncio a Adobe Illustrator en la ruta:<strong> Archivo – Colocar – Seleccionar imagen – Incrustar.</strong> </p></li></div><div class="ul lista-ul--color"><li><i class="fas fa-caret-right"></i><p>Ahora, se debe escalar la imagen teniendo en cuenta que llegue hasta la margen roja (sangrado) que se configuró inicialmente (figura 17).</p></li></div>',
         imagen: require('@/assets/tema3/img-5.svg'),
         leyendaImagen: 'Figura 17',
       },
