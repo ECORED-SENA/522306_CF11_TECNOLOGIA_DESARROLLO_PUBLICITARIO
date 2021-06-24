@@ -5,7 +5,7 @@
     .titulo-principal
       .titulo-principal__numero
         span 1
-      h1 El arte finalizado
+      h1 El artefinalizado
  
 
     .row.justify-content-around.align-items-center

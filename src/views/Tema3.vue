@@ -37,6 +37,7 @@
         p.mb-5
           figure.imgc.mb-5
             img(src='@/assets/tema3/img-2.svg', alt='Sangrado')
+            p.mt-1 Figura - 15 Uso correcto de sangria
     p.mb-5 En la parte izquierda de la figura 15 donde está la palabra NO se puede ver que la foto (área en color gris) llega justo al borde del diseño sin ocupar el área de sangrado; en ese caso está mal aplicado el sangrado y es lo que posteriormente causará problemas en el corte final. En la parte derecha (SÍ) se ve la manera correcta de utilizar el sangrado, es decir se lleva la imagen hasta el borde y el diseño hasta el área de sangrado y, de ese modo, cuando se corte por la línea negra será imposible que queden bordes blancos.
 
 

@@ -21,6 +21,7 @@
         .col-12.col-lg-auto.justify-content-md-center.mb-4 
           figure.imgc.img-300
           img(src='@/assets/tema5/img-2.svg', alt='¿Qué es la sobreimpresión y reserva de objetos?')
+          p.mt-1 Figura 24 - Texto en contorno
 
 
       .col-5          

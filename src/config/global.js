@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Arte finalización de piezas gráficas',
+    componenteFormativo: 'Artefinalización de piezas gráficas',
     descripcionCurso:
       'El arte final en diseño es el proceso de revisión y preparación de un trabajo gráfico para enviarlo correctamente a la imprenta. Es un paso previo a la impresión y reproducción de cualquier encargo gráfico. De un arte final bien realizado, dependerá el resultado bueno o malo del proyecto (Adesing Perú, s.f.).',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
@@ -265,8 +265,33 @@ export default {
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
         cargo: 'Asesor metodológico y pedagógico',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
+      },
+      {
+        nombre: 'Manuel Augusto Arias López',
+        cargo: 'Instructor-Experto temático',
+        centro: 'Centro de Comercio y Servicios',
+        regional: 'Regional Quindío',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Diseñador instruccional',
+        centro: 'Centro de Diseño y Metrología',
+        regional: 'Regional Distrito Capital',
+      },
+      {
+        nombre: 'Vilma Lucía Perilla Méndez',
+        cargo: 'Evaluadora Instruccional',
+        centro: 'Centro para la Industria y la Comunicación Gráfica',
+        regional: 'Regional Distrito Capital',
+      },
+
+      {
+        nombre: 'Andrea Velásquez Torres',
+        cargo: 'Apoyo experto temático',
+        centro: 'Centro de Comercio y Servicios',
+        regional: 'Regional Quindío',
       },
     ],
     desarrolloProducto: [
@@ -300,7 +325,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yuli Marcela Gómez Tarazona ',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

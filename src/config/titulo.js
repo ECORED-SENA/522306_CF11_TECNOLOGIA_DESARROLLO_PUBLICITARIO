@@ -1,1 +1,1 @@
-module.exports = 'Arte finalización de piezas gráficas'
+module.exports = 'Artefinalización de piezas gráficas'

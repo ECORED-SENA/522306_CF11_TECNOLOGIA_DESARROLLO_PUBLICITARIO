@@ -12,7 +12,7 @@
     #t_2_1.titulo-segundo
       h2 2.1  Conversión de imágenes RGB – CMYK
       
-    p.mb-4 Sobre este tema se debe tener presente lo siguiente para conocer en mayor medida todo lo relacionado con el color y que se explicarán en detalle:
+    p.mb-4 Como es sabido, el modo de color usado para impresión es CMYK; sin embargo, es común encontrar fotografías en modo RGB, por lo cual se hace necesario realizar la conversión de la siguiente forma:
 
     .row.justify-content-around.align-items-center.p-5
       SlyderC.mb-5(:datos="datosSlyder1")
