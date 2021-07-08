@@ -6,7 +6,11 @@
       .titulo-principal__numero
         span 3
       h1 Sangrado
-
+    .row.justify-content-md-center.align-self-center.m-5
+      figure.mb-5
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/Jo8osXCK5sc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)   
+           
     .row.justify-content-md-center.mb-4
       .col.col-lg-10
       

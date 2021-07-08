@@ -6,7 +6,12 @@
       .titulo-principal__numero
         span 2
       h1 Colores de impresión
+    .row.justify-content-md-center.align-self-center.m-5
+      figure.mb-5
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/5PGKG0hlq_Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)   
 
+          
     p.mb-4 Sobre este tema se debe tener presente lo siguiente para conocer en mayor medida todo lo relacionado con el color y que se explicarán en detalle:
 
     #t_2_1.titulo-segundo

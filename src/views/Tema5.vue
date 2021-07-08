@@ -7,6 +7,11 @@
         span 5
       h1 Tipografías empleadas
 
+    .row.justify-content-md-center.align-self-center.m-3.mb-5
+      figure.mb-5
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/Gbyl1xDzrrA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)       
+
     .row.justify-content-md-center.mb-4
       .col-lg.justify-content-md-center.align-self-center
         p.mb-5 En este punto del proceso de desarrollo de la pieza gráfica y el arte final de la misma para impresión, se debe tener claro que las tipografías utilizadas en el diseño no estarán instaladas en todos los computadores, por lo que se debe garantizar que los textos no tengan ninguna alteración al abrir los archivos en un equipo distinto a aquel del diseño.
