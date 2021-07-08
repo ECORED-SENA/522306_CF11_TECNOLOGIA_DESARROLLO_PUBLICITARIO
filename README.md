@@ -1,4 +1,4 @@
-# **sena-base-2021 v3.2.0**
+# **Artefinalización de piezas gráficas**
 
 ## **Enlace GitHubPages**
 
